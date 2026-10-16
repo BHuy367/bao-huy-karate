@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nguyễn Ngọc Bảo Huy</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071426;
+    color: white;
+    line-height: 1.7;
+}
+
+header {
+    padding: 22px;
+    text-align: center;
+    background: #0d2342;
+    border-bottom: 2px solid #35d9ff;
+}
+
+header h2 {
+    color: #35d9ff;
+}
+
+.hero {
+    min-height: 80vh;
+    padding: 55px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    width: 300px;
+    max-width: 85vw;
+    border: 3px solid #35d9ff;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #168bff55;
+}
+
+.intro {
+    max-width: 550px;
+}
+
+.intro h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    color: #ffd166;
+    line-height: 1.25;
+    margin: 15px 0;
+}
+
+.intro p {
+    color: #d4e2f5;
+    margin: 10px 0;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: 1px solid #35d9ff;
+    border-radius: 30px;
+    color: #35d9ff;
+}
+
+section {
+    padding: 55px 8%;
+}
+
+h2.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #35d9ff;
+    margin-bottom: 30px;
+}
+
+.info {
+    max-width: 750px;
+    margin: auto;
+    padding: 25px;
+    background: #102542;
+    border-radius: 15px;
+}
+
+.info p {
+    margin: 8px 0;
+}
+
+.awards {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 24px;
+    background: linear-gradient(145deg, #142e50, #0c1c32);
+    border: 1px solid #24476c;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #35d9ff;
+}
+
+.card h3 {
+    color: #ffd166;
+    margin-bottom: 10px;
+}
+
+.gold {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #030b16;
+    color: #a9bed8;
+}
+
+@media (max-width: 650px) {
+    .hero {
+        text-align: center;
+        gap: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>🥋 NGUYỄN NGỌC BẢO HUY</h2>
+    <p>THPT Chuyên Bến Tre | Karate Athlete</p>
+</header>
+
+<div class="hero">
+    <img src="bao-huy.jpg" alt="Ảnh chân dung Nguyễn Ngọc Bảo Huy">
+
+    <div class="intro">
+        <p>TRANG CÁ NHÂN VẬN ĐỘNG VIÊN</p>
+        <h1>NGUYỄN NGỌC<br>BẢO HUY</h1>
+
+        <p><strong>Ngày sinh:</strong> 24/06/2010</p>
+        <p><strong>Học sinh trường:</strong> THPT Chuyên Bến Tre</p>
+        <p>
+            Mọi thành công đều bắt đầu từ sự cố gắng
+        </p>
+
+        <span class="tag">🏅 Karate • Thành tích</span>
+    </div>
+</div>
+
+<section>
+    <h2 class="section-title">THÔNG TIN CÁ NHÂN</h2>
+    <div class="info">
+        <p><strong>Họ và tên:</strong> Nguyễn Ngọc Bảo Huy</p>
+        <p><strong>Ngày sinh:</strong> 24/06/2010</p>
+        <p><strong>Trường học:</strong> THPT Chuyên Bến Tre</p>
+        <p><strong>Lĩnh vực:</strong> Thành tích thể thao</p>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">THÀNH TÍCH KARATE</h2>
+
+    <div class="awards">
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata cá nhân nam</h3>
+            <p>Giải vô địch các câu lạc bộ Karate quốc gia khu vực miền nam</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata đồng đội</h3>
+            <p>Giải vô địch các câu lạc bộ Karate quốc gia khu vực miền nam</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata cá nhân nam</h3>
+            <p>Giải vô địch các câu lạc bộ Karate quốc gia</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata đồng đội nam</h3>
+            <p>Giải vô địch các câu lạc bộ Karate quốc gia</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥈 HCB</div>
+            <h3>Kumite đồng đội nam</h3>
+            <p>Giải vô địch các câu lạc bộ Karate quốc gia</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata cá nhân nam</h3>
+            <p>Giải vô địch trẻ Karate quốc gia</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata đồng đội nam</h3>
+            <p>Giải vô địch trẻ Karate quốc gia</p>
+        </div>
+
+        <div class="card">
+            <div class="gold">🥇 HCV</div>
+            <h3>Kata đồng đội hỗn hợp nam - nữ</h3>
+            <p>Giải vô địch trẻ Karate quốc gia</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nguyễn Ngọc Bảo Huy</p>
+    <p>TRUNG TÂM ĐÀO TẠO VẬN ĐỘNG VIÊN TRẺ QUỐC GIA</p>
+</footer>
+
+</body>
+</html>
